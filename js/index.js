@@ -1,3 +1,4 @@
+jQuery(document).ready(function($){
 $( ".pre-screen-title-1" ).click(function() {
   $(".pre-screen-content-1").slideToggle();
 });
@@ -21,4 +22,5 @@ $( ".skill-talent-title-1" ).click(function() {
 });
 $( ".skill-talent-title-2" ).click(function() {
   $(".skill-talent-content-2").slideToggle();
+});
 });
