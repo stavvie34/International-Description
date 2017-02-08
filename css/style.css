@@ -1,4 +1,4 @@
-.pricing
+.slide-pricing
 {
     width: 80%;
     color: #fff;
@@ -7,7 +7,7 @@
     margin-right: auto;
 }
 
-.pricing .thumbnail {
+.slide-pricing .slide-thumbnail {
   background: #fff;
   /* IE Fall */
   background: rgba(255, 255, 255, 0.2);
@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-.pricing .title
+.slide-pricing .slide-title
 {
     background: #45769C;
     font-size: 18px;
@@ -36,12 +36,12 @@
     margin-bottom: 0;
 }
 
-.pricing .content
+.slide-pricing .slide-content
 {
     display: none;
 }
 
-.sub-title
+.slide-sub-title
 {
     cursor: pointer;
     background: #97ABBD;
@@ -54,12 +54,12 @@
     border-bottom: 1px solid #6D88A0;
 }
 
-.sub-title:hover
+.slide-sub-title:hover
 {
     background: #6D88A0;
 }
 
-.pricing .content ul
+.slide-pricing .slide-content ul
 {
     list-style: none;
     background: #fff;
@@ -70,17 +70,17 @@
     color: #222;
 }
 
-.pricing  .content ul li
+.slide-pricing  .slide-content ul li
 {
     padding: 10px 20px;
 }
 
-.pricing .content ul li:nth-child(2n)
+.slide-pricing .slide-content ul li:nth-child(2n)
 {
     background: #f3f3f3;
 }
 
-.pricing .content ul li .fa
+.slide-pricing .slide-content ul li .fa
 {
     width: 30px;
     margin-right: 10px;
@@ -88,7 +88,7 @@
     font-size: 1.4em;
 }
 
-.pricing .content a
+.slide-pricing .slide-content a
 {
     display: block;
     background: #2980b9;
@@ -108,7 +108,7 @@
     transition: 0.2s linear;
 }
 
-.pricing .content a:hover {
+.slide-pricing .slide-content a:hover {
   background: #34495e;
   /* IE Fallback */
   background: rgba(52, 73, 94, 0.7);
